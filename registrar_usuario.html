@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<link href="css/registrarUsuarioStyle.css" rel="stylesheet" type="text/css" media="all" />
+		<title> ALPAKITAY </title>
+	</head>
+	<body>
+		<header>
+			Registro de Usuarios
+		</header>		
+		<form>
+				<p> <label> Nombres y Apellidos </label> </p>
+				<input id="name" name="nombres" placeholder="Nombres y Apellidos" required tabindex="1" type="text">
+				
+				<p> <label> E- Mail </label> </p>
+				<input id="email" name="email" placeholder="example@domain.com" required= type="email">
+
+				<p> <label> DNI </label> </p>
+				<input id="dni" name="dni" placeholder="DNI" required="" tabindex="2" type="text">
+				
+				<p> <label> Password </label> </p>
+				<input type="password" id="password" name="password" required="" type="text">
+	
+				<p> <label>Re - Password</label> </p>
+				<input type="password" id="repassword" name="repassword" required="" type="text">
+
+               	<fieldset>
+					<label> Fecha de Nacimiento </label>
+					<label class="month">
+						<select class="select-style" name="BirthMonth">
+							<option value="">Mes</option>
+							<option  value="01">Enero</option>
+						</select>   
+					</label>
+	                <label> Dia <input class="birthday" maxlength="2" name="BirthDay"  placeholder="Day" required=""></label>
+					<label> Año <input class="birthyear" maxlength="4" name="BirthYear" placeholder="Year" required=""></label>
+				</fieldset>
+
+            <select class="select-style gender" name="gender">            
+				<option value="m"> Masculino </option>
+            	<option value="f"> Femenino </option>
+            </select><br><br>
+
+            <label> Telefono </label>
+            <input id="telefono" name="telefono" placeholder="Numero Telefonico" required="" type="text">
+            
+            <input class="buttom" name="submit" id="submit" tabindex="5" value="Registrar!" type="submit">
+		</form>
+	</body>
+</html>
