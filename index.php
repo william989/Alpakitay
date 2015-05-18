@@ -52,7 +52,7 @@
 		</div>		
 		
 		<footer>
-			@Epis - Unsa			
+						
 		</footer>
 	</body>	
 </html>
